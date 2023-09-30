@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+#header {
+  background: #0d162f;
+  padding: 20px 0;
+}
+.header div {
+  background: white;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+#hero {
+  background: #0d162f;
+  height: 800px;
+}
+.hero p {
+  color: var(--White, #fff);
+  /* H2 32 40 */
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+.hero button {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 40px;
+  background: #ee0505;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+}
+#photos {
+  padding: 100px 0;
+}
+.photos {
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  width: 268px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.photo-contant {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #0d162f 0%, rgba(13, 22, 47, 0) 100%);
+  bottom: -400;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+  transition: 0.5;
+}
+.photo-contant {
+  color: white;
+  font-size: 30px;
+}
+.photo:hover .photo-contant {
+  bottom: 0;
+}
+body {
+  position: relative;
+  height: 50%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 50%;
+  height: 50%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 200%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 50px;
+  width: Fixed (1, 120px);
+  height: Hug (464px);
+}
+.people-content {
+  width: Fill (560px);
+  height: Fixed (400px);
+  padding: 24px;
+  gap: 8px;
+  background: #0d162f;
+  color: white;
+}
